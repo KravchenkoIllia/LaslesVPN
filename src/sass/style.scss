@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container  {
+    background-color: #F6F6F6;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+@import url('blocks/_menu.scss');
+@import url('blocks/_main.scss');
+@import url('blocks/_info.scss');
+@import url('blocks/_function.scss');
+@import url('blocks/_plan.scss');
+@import url('blocks/_map.scss');
+@import url('blocks/_sponsored.scss');
+@import url('blocks/_rewiews.scss');
+@import url('blocks/_subscr.scss');
+@import url('blocks/_footer.scss');
+@import url('blocks/_media.scss');
+

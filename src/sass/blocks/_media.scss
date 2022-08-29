@@ -1,0 +1,219 @@
+@media (max-width: 1200px){
+    .container {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    .main {
+        padding-top: 50px;
+    }
+    .main__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .plan__item {
+        width: 280px;
+    } 
+    .map__img {
+        margin-top: 50px;
+    }
+    .map__img img {
+        width: 100%;
+    }
+    .rewiews__item {
+        width: 290px;
+        justify-content: space-around;
+    }
+    .rewiews__user-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px){
+    .container {
+        position: relative;
+        max-width: 100%;
+    }
+    .menu__sign {
+        display: none;
+    }
+    .menu__list {
+        display: none;
+    }
+    .main__wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .menu__wrapper {
+        align-items: flex-start;
+        height: 70px;
+    }
+    .main__descr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accordion {
+        display: block;
+    }
+    .info {
+        padding-top: 40px;
+    }
+    .function {
+        padding-top: 40px;
+    }
+    .function__descr{
+        margin-left: 10px;
+    }
+    .function__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .function__img img {
+        width: 100%;
+    }
+    .plan {
+        padding-top: 40px;
+    }
+    .plan__item {
+        width: 220px;
+    }
+    .map {
+        padding-top: 40px;
+    }
+    .map__title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .map__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .reviews {
+        padding-top: 40px;
+    }
+    .reviews__title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .reviews__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .rewiews__items {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rewiews__item {
+        width: 400px;
+        margin-bottom: 15px;
+    }
+    .subscr {
+        padding-top: 40px;
+    }
+    .subscr__wrapper {
+        padding: 0 20px;
+    }
+    .subscr__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer {
+        padding-top: 40px;
+    }
+    .footer__social-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer__social-links {
+        margin-top: 15px;
+    }
+    .footer__links {
+        width: 400px;
+    }
+    .footer__links a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .info__items {
+        margin-top: 10px;
+    }
+    .info__item {
+        width: 100%;
+        border-right: none;
+        height: 100px;
+    }
+    .info__item-img {
+        margin-right: 10px;
+    }
+    .info__item-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .info__item-subtitle {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .plan__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan__item {
+        width: 320px;
+        height: 650px;
+    }
+    .plan__list-item {
+        margin-bottom: 0;
+    }
+    .plan__img {
+        margin-top: 30px;
+    }
+    .footer__wrapper{
+        flex-direction: column;
+        align-items:center;
+        padding: 0 5px;
+    }
+    .footer__social-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__links {
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .footer__social-links {
+        justify-content: space-between;
+    }
+    .footer__social-cop {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .accordionc__list li a{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        color: #4F5665;
+        text-decoration: none;
+        transition: all 0.6s;
+    }
+    .accordion {
+        width: 300px;
+    }
+    .subscr__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer__links {
+        width: 380px;
+    }
+}

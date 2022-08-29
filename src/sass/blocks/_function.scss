@@ -1,0 +1,37 @@
+.function {
+    padding-top: 100px;
+    background-color: #F6F6F6;
+}
+.function__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.function__descr {
+    margin-left: 150px;
+}
+.function__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.function__subtitle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.function__list-item {
+    position: relative;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    list-style-type: none;
+}
+.function__list-item img {
+    margin-right: 10px;
+}

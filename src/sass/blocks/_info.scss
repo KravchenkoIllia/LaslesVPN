@@ -1,0 +1,35 @@
+.info {
+    padding-top: 100px;
+    background-color: #F6F6F6;
+}
+.info__items {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.info__item {
+    width: 370px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #EEEFF2;
+}
+.info__item:last-child {
+    border-right: none;
+}
+.info__item-img {
+    margin-right: 35px;
+}
+.info__item-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.info__item-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
